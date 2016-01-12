@@ -1,0 +1,14 @@
+
+alias zshconfig="subl ~/.zshrc"
+alias addalias="nano ~/.zshrc"
+
+alias ll="ls -al"
+alias lld="ls -ald */"
+
+alias gst="git status"
+alias gpull="git pull --rebase origin develop"
+alias gpush="git push"
+alias gaa="git add -A"
+alias gci="git commit -m "
+alias gcod="git checkout develop"
+alias gcob="git checkout -b "

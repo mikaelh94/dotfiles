@@ -1,0 +1,10 @@
+{
+
+    // the number of spaces to add after the leading *
+    "jsdocs_indentation_spaces": 2,
+    "jsdocs_extend_double_slash": false,
+
+
+    "align_indent": false,
+    
+}

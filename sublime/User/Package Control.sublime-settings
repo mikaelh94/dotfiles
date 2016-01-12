@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"DashDoc",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
+		"LESS",
+		"Material Theme",
+		"Monokai Extended",
+		"Monokai JSON+",
+		"Package Control",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"Twig"
+	]
+}
