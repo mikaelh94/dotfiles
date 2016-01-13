@@ -1,20 +1,6 @@
 #!/bin/bash
 
-# prerequis:
-# sudo softwareupdate -i -a
-# xcode-select --install
-
-sudo -v
-
-# set zsh
-chsh -s $(which zsh)
-
-# Install homebrew
-sh ./brew.sh
-
-
-# ohMyZSH
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# ohMyZSH symlinks
 sudo rm ~/.zshrc
 ln -s ~/.dotfiles/zsh/.zshrc ~/
 sudo rm -rf ~/.oh-my-zsh/custom
@@ -23,7 +9,7 @@ ln -s ~/.dotfiles/zsh/.aliases ~/.aliases
 
 
 # Install Tools / Apps 
-sh ./stuff.sh
+sh ./brew.sh
 
 
 # Sublime Text 3

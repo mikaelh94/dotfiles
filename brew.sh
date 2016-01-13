@@ -1,10 +1,16 @@
 #!/bin/bash
 
-which -s brew
-if [[ $? != 0 ]] ; then
-    # Install Homebrew
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
-    brew update
-    brew upgrade --all
-fi
+
+# Tools
+brew install coreutils
+brew install tree
+brew install git
+brew install imagemagick
+brew install nvm
+
+# App
+brew cask install google-chrome
+brew cask install spotify
+brew cask install slack
+
+brew cleanup
