@@ -6,6 +6,11 @@ install_homebrew () {
     echo "• Installing Homebrew"
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
 
+    brew tap homebrew/dupes
+    brew tap homebrew/versions
+    brew tap homebrew/php
+    brew install curl --with-openssl
+
     brew install coreutils
     brew install tree
     brew install git
@@ -58,3 +63,6 @@ echo "please restart shell"
 
 # MySQL
 # https://gist.github.com/GabLeRoux/5766354
+# https://gist.github.com/pwenzel/f06419631bd172331281
+# https://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions
+# https://gist.github.com/alefi87/bc778a7ca918d27821a1
