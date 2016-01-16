@@ -4,12 +4,11 @@ install_homebrew () {
   which -s brew
   if [[ $? != 0 ]]; then
     echo "• Installing Homebrew"
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
     brew tap homebrew/dupes
     brew tap homebrew/versions
     brew tap homebrew/php
-    brew install curl --with-openssl
 
     brew install coreutils
     brew install tree
@@ -66,3 +65,4 @@ echo "please restart shell"
 # https://gist.github.com/pwenzel/f06419631bd172331281
 # https://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions
 # https://gist.github.com/alefi87/bc778a7ca918d27821a1
+# https://medium.com/@raureif/os-x-yosemite-how-to-set-up-apache-mysql-and-php-with-homebrew-4bc236d7d9fa#.llae79mio
