@@ -40,6 +40,3 @@ source $HOME/.aliases
 # NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
-
-# Brew Casq
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
