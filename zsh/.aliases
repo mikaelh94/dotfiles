@@ -6,7 +6,7 @@ alias ll="ls -al"
 alias lld="ls -ald */"
 
 alias gst="git status"
-alias gpull="git pull --rebase origin develop"
+alias gpull="git pull"
 alias gpush="git push"
 alias gaa="git add -A"
 alias gci="git commit -m "
