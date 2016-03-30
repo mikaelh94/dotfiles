@@ -13,12 +13,12 @@
 		".project"
 	],
 	"font_face": "Monaco",
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,

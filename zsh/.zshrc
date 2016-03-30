@@ -13,8 +13,7 @@ plugins=(git z sublime)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin"
-export ANDROID_HOME=/usr/local/opt/android-sdk
+export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/local/mysql/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

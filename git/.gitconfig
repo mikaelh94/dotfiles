@@ -1,0 +1,13 @@
+[user]
+	email = mikael.lharidon@adfab.fr
+	name = Mikael Lharidon
+[core]
+	excludesfile = /Users/mika/.gitignore_global
+[push]
+	default = matching
+[branch "master"]
+  remote = origin
+  merge = refs/heads/master
+[branch "develop"]
+  remote = origin
+  merge = refs/heads/develop
