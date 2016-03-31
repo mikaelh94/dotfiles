@@ -25,7 +25,6 @@ install_sublime () {
     echo "• Installing Sublime Text 3 config"
     rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
     ln -s ~/.dotfiles/sublime/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-    cp ~/.dotfiles/sublime/Package\ Control.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
   else
     echo "• Sublime Text 3 not found"
   fi
@@ -58,11 +57,3 @@ install_sublime
 install_node
 install_zsh
 echo "please restart shell"
-
-
-# MySQL
-# https://gist.github.com/GabLeRoux/5766354
-# https://gist.github.com/pwenzel/f06419631bd172331281
-# https://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions
-# https://gist.github.com/alefi87/bc778a7ca918d27821a1
-# https://medium.com/@raureif/os-x-yosemite-how-to-set-up-apache-mysql-and-php-with-homebrew-4bc236d7d9fa#.llae79mio
