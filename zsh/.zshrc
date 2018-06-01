@@ -13,7 +13,7 @@ plugins=(git z sublime)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/local/mysql/bin"
+export PATH="$(brew --prefix homebrew/php/php56)/bin:/usr/local/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/local/mysql/bin:/Users/mika/.gem/ruby/2.0.0/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -32,6 +32,9 @@ export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/local/mysql/bin"
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# Android
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
 
 # Alias
 source $HOME/.aliases
@@ -39,3 +42,6 @@ source $HOME/.aliases
 # NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+#OpenCV
+export PATH="/usr/local/opt/opencv@2/bin:$PATH"

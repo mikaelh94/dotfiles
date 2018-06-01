@@ -1,14 +1,28 @@
 
 alias zshconfig="subl ~/.zshrc"
-alias addalias="nano ~/.zshrc"
+alias addalias="subl ~/.aliases"
+alias zshsave="source ~/.zshrc"
 
 alias ll="ls -al"
 alias lld="ls -ald */"
 
 alias gst="git status"
-alias gpull="git pull"
-alias gpush="git push"
+alias gpull="git pull --rebase"
+alias gpulld="git pull --rebase origin develop"
+alias gpush="git push -u"
 alias gaa="git add -A"
 alias gci="git commit -m "
 alias gcod="git checkout develop"
 alias gcob="git checkout -b "
+alias gdif="git diff --stat --cached"
+
+alias dcr="./drush.phar cr"
+
+alias magecc="php n98-magerun.phar cache:clean"
+alias magerc="php -f shell/indexer.php -- --reindex catalog_category_flat"
+
+alias gus="gulp serve"
+alias guw="gulp watch"
+
+alias sshtk="ssh -D 8080 -C -N adm_riou@eco-preprod.dyndns.info"
+alias sshbagnolet="ssh -D 8080 -C -N www-data@paris.adfab.fr"
