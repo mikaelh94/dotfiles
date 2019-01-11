@@ -13,7 +13,7 @@ plugins=(git z sublime)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="$(brew --prefix homebrew/php/php56)/bin:/usr/local/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/local/mysql/bin:/Users/mika/.gem/ruby/2.0.0/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/local/mysql/bin:/Users/mika/.gem/ruby/2.0.0/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -43,5 +43,7 @@ source $HOME/.aliases
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-#OpenCV
-export PATH="/usr/local/opt/opencv@2/bin:$PATH"
+# PHP
+# export PATH="/usr/local/opt/php@5.6/bin:$PATH"
+# export PATH="/usr/local/opt/php@7.0/bin:$PATH"
+export PATH="/usr/local/opt/php@7.1/bin:$PATH"

@@ -1,6 +1,6 @@
 .DS_Store
 .phpintel
+.vscode
 node_modules/
 .local/
-theme/app/design/frontend/skullhead/default/template/kooples/cms/e-reservation.phtml
-theme/app/design/frontend/skullhead/default/template/kooples/cms/page-sac.phtml
+sites/development.services.yml
